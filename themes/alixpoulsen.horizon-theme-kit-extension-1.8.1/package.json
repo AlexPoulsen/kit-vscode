@@ -1,0 +1,58 @@
+{
+	"name": "horizon-theme-vscode",
+	"version": "1.8.1",
+	"author": "Jonathan Olaleye <j.olaleye.o@gmail.com>",
+	"displayName": "Horizon Theme",
+	"description": "A beautifully warm dark theme for Visual Studio Code",
+	"publisher": "jolaleye",
+	"license": "MIT",
+	"icon": "logo.png",
+	"engines": {
+		"vscode": "^1.26.0"
+	},
+	"galleryBanner": {
+		"color": "#FCEAE5",
+		"theme": "light"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"dark",
+		"horizon",
+		"warm"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Horizon",
+				"uiTheme": "vs-dark",
+				"path": "./themes/horizon.json"
+			},
+			{
+				"label": "Horizon Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/horizon-italic.json"
+			},
+			{
+				"label": "Horizon Bold",
+				"uiTheme": "vs-dark",
+				"path": "./themes/horizon-bold.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jolaleye/horizon-theme-vscode"
+	},
+	"homepage": "https://horizontheme.netlify.com",
+	"bugs": {
+		"url": "https://github.com/jolaleye/horizon-theme-vscode/issues"
+	},
+	"__metadata": {
+		"id": "fcf0848c-96b3-487a-a655-01aed955a594",
+		"publisherId": "25219af3-1e18-4473-9b20-a231f88d9800",
+		"publisherDisplayName": "Jonathan Olaleye"
+	}
+}
