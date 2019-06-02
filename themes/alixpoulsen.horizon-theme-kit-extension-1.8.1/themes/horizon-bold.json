@@ -260,7 +260,7 @@
       "name": "Character",
       "scope": "string.character",
       "settings": {
-        "foreground": "#F09483E6"
+        "foreground": "#EBA273E6"
       }
     },
     {
@@ -366,8 +366,8 @@
       "name": "Control keyword (=>)",
       "scope": "keyword.control.arrow.kit",
       "settings": {
-        "foreground": "#FAC29AE6",
-        "fontStyle": "bold italic"
+        "foreground": "#D89EBBE6",
+        "fontStyle": "bold"
       }
     },
     {
@@ -396,6 +396,21 @@
     {
       "name": "Support",
       "scope": "support",
+      "settings": {
+        "foreground": "#FAC29AE6"
+      }
+    },
+    {
+      "name": "Function Type: `function`",
+      "scope": "support.type.function.function.kit",
+      "settings": {
+        "foreground": "#D89EBBE6",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Function Type: input type",
+      "scope": ["support.type.function.input.kit", "support.type.function.return.kit"],
       "settings": {
         "foreground": "#FAC29AE6"
       }
