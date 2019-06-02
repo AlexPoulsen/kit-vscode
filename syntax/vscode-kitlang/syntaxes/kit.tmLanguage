@@ -58,15 +58,21 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>keyword.control.variables.kit</string>
+        <key>match</key>
+        <string>\b(var|const)\b</string>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>keyword.control.kit</string>
         <key>match</key>
-        <string>\b(import|include|function|implement|specialize|var|using)\b</string>
+        <string>\b(import|include|function|implement|specialize|using)\b</string>
       </dict>
       <dict>
         <key>name</key>
         <string>storage.modifier.kit</string>
         <key>match</key>
-        <string>\b(private|public|static|const|inline)\b</string>
+        <string>\b(private|public|static|inline)\b</string>
       </dict>
       <dict>
         <key>name</key>

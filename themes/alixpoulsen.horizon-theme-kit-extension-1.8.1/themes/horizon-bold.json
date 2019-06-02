@@ -355,6 +355,14 @@
       }
     },
     {
+      "name": "Control keyword (var, const)",
+      "scope": "keyword.control.variables",
+      "settings": {
+        "foreground": "#B877DBE6",
+        "fontStyle": "bold italic underline"
+      }
+    },
+    {
       "name": "Control keyword (if, try, while, etc.)",
       "scope": "keyword.other.kit",
       "settings": {
