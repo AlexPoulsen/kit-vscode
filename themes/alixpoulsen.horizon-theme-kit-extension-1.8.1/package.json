@@ -1,10 +1,10 @@
 {
 	"name": "horizon-theme-vscode",
 	"version": "1.8.1",
-	"author": "Jonathan Olaleye <j.olaleye.o@gmail.com>",
+	"author": "Alix Poulsen",
 	"displayName": "Horizon Theme",
 	"description": "A beautifully warm dark theme for Visual Studio Code",
-	"publisher": "jolaleye",
+	"publisher": "alixpoulsen",
 	"license": "MIT",
 	"icon": "logo.png",
 	"engines": {
@@ -26,16 +26,6 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Horizon",
-				"uiTheme": "vs-dark",
-				"path": "./themes/horizon.json"
-			},
-			{
-				"label": "Horizon Italic",
-				"uiTheme": "vs-dark",
-				"path": "./themes/horizon-italic.json"
-			},
-			{
 				"label": "Horizon Bold",
 				"uiTheme": "vs-dark",
 				"path": "./themes/horizon-bold.json"
@@ -53,6 +43,6 @@
 	"__metadata": {
 		"id": "fcf0848c-96b3-487a-a655-01aed955a594",
 		"publisherId": "25219af3-1e18-4473-9b20-a231f88d9800",
-		"publisherDisplayName": "Jonathan Olaleye"
+		"publisherDisplayName": "Alix Poulsen"
 	}
 }

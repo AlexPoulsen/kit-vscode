@@ -194,7 +194,7 @@
       "name": "Storage declaration keyword)",
       "scope": "storage.type",
       "settings": {
-        "foreground": "#CB80CFC6",
+        "foreground": "#D87EC6C6",
         "fontStyle": "bold italic underline"
       }
     },
@@ -202,7 +202,7 @@
       "name": "Storage modifier keyword",
       "scope": "storage.modifier",
       "settings": {
-        "foreground": "#CB80CFC6",
+        "foreground": "#D87EC6C6",
         "fontStyle": "bold"
       }
     },

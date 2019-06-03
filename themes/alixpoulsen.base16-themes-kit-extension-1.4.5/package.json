@@ -1,0 +1,49 @@
+{
+	"name": "base16-themes",
+	"displayName": "Base16 Themes",
+	"description": "Base 16 themes ported from TextMate/Sublime",
+	"version": "1.4.5",
+	"publisher": "alixpoulsen",
+	"author": {
+		"name": "Alix Poulsen"
+	},
+	"keywords": [
+		"base16",
+		"dark",
+		"light"
+	],
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"icon": "base16.png",
+	"galleryBanner": {
+		"color": "#7eafc1",
+		"theme": "light"
+	},
+	"categories": [
+		"Themes"
+	],
+	"homepage": "https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AndrsDC/base16-vscode.git"
+	},
+	"bugs": {
+		"url": "https://github.com/AndrsDC/base16-vscode/issues"
+	},
+	"license": "MIT",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Base16 Light Railscasts",
+				"uiTheme": "vs",
+				"path": "./themes/railscasts-light.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "5b70d193-8451-4993-b4d4-eabcc15b7fe1",
+		"publisherId": "9ead81b8-b179-4aee-b7ee-b29b6cc0bb16",
+		"publisherDisplayName": "Alix Poulsen"
+	}
+}
