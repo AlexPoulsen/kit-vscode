@@ -66,7 +66,7 @@
         <key>name</key>
         <string>keyword.control.kit</string>
         <key>match</key>
-        <string>\b(import|include|function|implement|specialize|using)\b</string>
+        <string>\b(import|include|function|implement|specialize|using|macro)\b</string>
       </dict>
       <dict>
         <key>name</key>
