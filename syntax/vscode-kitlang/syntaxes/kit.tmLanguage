@@ -58,15 +58,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>keyword.control.variables.kit</string>
-        <key>match</key>
-        <string>\b(var|const)\b</string>
-      </dict>
-      <dict>
-        <key>name</key>
         <string>keyword.control.kit</string>
         <key>match</key>
-        <string>\b(import|include|function|implement|specialize|using|macro)\b</string>
+        <string>\b(import|include|function|implement|specialize|using|macro|rule|rules|typedef|trait)\b</string>
       </dict>
       <dict>
         <key>name</key>
@@ -84,7 +78,7 @@
         <key>name</key>
         <string>storage.type.kit</string>
         <key>match</key>
-        <string>\b(struct|enum|union|abstract|rule|rules|typedef|trait)\b</string>
+        <string>\b(struct|enum|union|abstract|var|const)\b</string>
       </dict>
       <dict>
         <key>name</key>

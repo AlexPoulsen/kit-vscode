@@ -191,11 +191,19 @@
       }
     },
     {
-      "name": "Storage (declaration or modifier keyword)",
-      "scope": ["storage.type", "storage.modifier"],
+      "name": "Storage declaration keyword)",
+      "scope": "storage.type",
       "settings": {
-        "foreground": "#B877DBE6",
-        "fontStyle": "bold"
+        "foreground": "#CB80CFC6",
+        "fontStyle": "bold italic underline"
+      }
+    },
+    {
+      "name": "Storage modifier keyword",
+      "scope": "storage.modifier",
+      "settings": {
+        "foreground": "#CB80CFC6",
+        "fontStyle": "bold italic"
       }
     },
     {
@@ -352,14 +360,6 @@
       "settings": {
         "foreground": "#B877DBE6",
         "fontStyle": "bold italic"
-      }
-    },
-    {
-      "name": "Control keyword (var, const)",
-      "scope": "keyword.control.variables",
-      "settings": {
-        "foreground": "#B877DBE6",
-        "fontStyle": "bold italic underline"
       }
     },
     {
