@@ -203,7 +203,7 @@
         <key>name</key>
         <string>string.quoted.double.kit</string>
         <key>match</key>
-        <string>"(\.|[^"])*"</string>
+        <string>"(?:\\"|[^"])*"</string>
       </dict>
       <dict>
         <key>name</key>
@@ -215,7 +215,7 @@
         <key>name</key>
         <string>string.quoted.single.kit</string>
         <key>match</key>
-        <string>'(\.|[^\'])*'</string>
+        <string>'(?:\\'|[^'])*'</string>
       </dict>
       <dict>
         <key>name</key>
