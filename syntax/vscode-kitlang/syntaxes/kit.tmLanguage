@@ -263,7 +263,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>meta.rewrite.identifier.kit</string>
+        <string>meta.preprocessor.rewrite.identifier.kit</string>
         <key>match</key>
         <string>\$[A-Za-z0-9_]+\b</string>
       </dict>
