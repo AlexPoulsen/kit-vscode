@@ -295,9 +295,64 @@
             <key>name</key>
             <string>meta.preprocessor.rewrite.dollarsign.kit</string>
           </dict>
+          <key>7</key>
+          <dict>
+            <key>name</key>
+            <string>meta.preprocessor.rewrite.dollarsign.kit</string>
+          </dict>
+          <key>8</key>
+          <dict>
+            <key>name</key>
+            <string>meta.preprocessor.rewrite.variable.kit</string>
+          </dict>
+          <key>9</key>
+          <dict>
+            <key>name</key>
+            <string>meta.preprocessor.rewrite.colon.kit</string>
+          </dict>
+          <key>10</key>
+          <dict>
+            <key>name</key>
+            <string>support.type.function.kit</string>
+          </dict>
+          <key>12</key>
+          <dict>
+            <key>name</key>
+            <string>support.type.function.function.kit</string>
+          </dict>
+          <key>14</key>
+          <dict>
+            <key>name</key>
+            <string>support.type.function.input.kit</string>
+          </dict>
+          <key>15</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.separator.comma.kit</string>
+          </dict>
+          <key>16</key>
+          <dict>
+            <key>name</key>
+            <string>support.type.function.input.kit</string>
+          </dict>
+          <key>17</key>
+          <dict>
+            <key>name</key>
+            <string>keyword.control.arrow.kit</string>
+          </dict>
+          <key>18</key>
+          <dict>
+            <key>name</key>
+            <string>support.type.function.return.kit</string>
+          </dict>
+          <key>19</key>
+          <dict>
+            <key>name</key>
+            <string>meta.preprocessor.rewrite.dollarsign.kit</string>
+          </dict>
         </dict>
         <key>match</key>
-        <string>(\$\{)([A-Za-z0-9_]+)(:)( *)([A-Z][a-z0-9_]+)(\})</string>
+        <string>(\$\{)([A-Za-z0-9_]+)(:)( *)([A-Z][a-z0-9_\[\]\(\)]+)(\})|(\$\{)([A-Za-z0-9_]+)(:)( *)((function *)\((([A-Z][a-zA-Z0-9_\[\]]*)(, ))*([A-Z][a-zA-Z0-9_\[\]]*)\) *(->) *([A-Z][a-zA-Z0-9_\[\]]*))(\})</string>
       </dict>
     </array>
   </dict>
