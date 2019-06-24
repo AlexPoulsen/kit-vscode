@@ -32,6 +32,11 @@
             <key>name</key>
             <string>support.type.function.input.kit</string>
           </dict>
+          <key>5</key>
+          <dict>
+            <key>name</key>
+            <string>support.type.function.input.kit</string>
+          </dict>
           <key>6</key>
           <dict>
             <key>name</key>
@@ -40,21 +45,46 @@
           <key>8</key>
           <dict>
             <key>name</key>
+            <string>support.type.function.input.kit</string>
+          </dict>
+          <key>9</key>
+          <dict>
+            <key>name</key>
+            <string>support.type.function.input.kit</string>
+          </dict>
+          <key>10</key>
+          <dict>
+            <key>name</key>
+            <string>support.type.function.input.kit</string>
+          </dict>
+          <key>12</key>
+          <dict>
+            <key>name</key>
             <string>support.type.function.return.kit</string>
           </dict>
-          <key>5</key>
+          <key>13</key>
+          <dict>
+            <key>name</key>
+            <string>support.type.function.return.kit</string>
+          </dict>
+          <key>14</key>
+          <dict>
+            <key>name</key>
+            <string>support.type.function.return.kit</string>
+          </dict>
+          <key>7</key>
           <dict>
             <key>name</key>
             <string>punctuation.separator.comma.kit</string>
           </dict>
-          <key>7</key>
+          <key>11</key>
           <dict>
             <key>name</key>
             <string>keyword.control.arrow.kit</string>
           </dict>
         </dict>
         <key>match</key>
-        <string>\b((function *)\((([A-Z][a-zA-Z0-9_\[\]]*)(, ))*([A-Z][a-zA-Z0-9_\[\]]*)\) *(->) *([A-Z][a-zA-Z0-9_\[\]]*))</string>
+        <string>\b((function *)\((((([a-z_][a-zA-Z0-9_]*\.)+)?[A-Z][a-zA-Z0-9_\[\]]*)(, ))*((([a-z_][a-zA-Z0-9_]*\.)+)?[A-Z][a-zA-Z0-9_\[\]]*)\) *(->) *((([a-z_][a-zA-Z0-9_]*\.)+)?[A-Z][a-zA-Z0-9_\[\]]*))</string>
       </dict>
       <dict>
         <key>name</key>
@@ -135,7 +165,7 @@
         <key>name</key>
         <string>support.type.kit</string>
         <key>match</key>
-        <string>\b[A-Z][a-zA-Z0-9_]*\b</string>
+        <string>\b((([a-z_][a-zA-Z0-9_]*\.)+)?[A-Z][a-zA-Z0-9_]*)\b</string>
       </dict>
       <dict>
         <key>name</key>
@@ -293,42 +323,42 @@
           <key>6</key>
           <dict>
             <key>name</key>
-            <string>meta.preprocessor.rewrite.dollarsign.kit</string>
+            <string>meta.preprocessor.rewrite.type.kit</string>
           </dict>
           <key>7</key>
           <dict>
             <key>name</key>
-            <string>meta.preprocessor.rewrite.dollarsign.kit</string>
+            <string>meta.preprocessor.rewrite.type.kit</string>
           </dict>
           <key>8</key>
           <dict>
             <key>name</key>
-            <string>meta.preprocessor.rewrite.variable.kit</string>
+            <string>meta.preprocessor.rewrite.dollarsign.kit</string>
           </dict>
           <key>9</key>
           <dict>
             <key>name</key>
-            <string>meta.preprocessor.rewrite.colon.kit</string>
+            <string>meta.preprocessor.rewrite.dollarsign.kit</string>
           </dict>
           <key>10</key>
           <dict>
             <key>name</key>
-            <string>support.type.function.kit</string>
+            <string>meta.preprocessor.rewrite.variable.kit</string>
+          </dict>
+          <key>11</key>
+          <dict>
+            <key>name</key>
+            <string>meta.preprocessor.rewrite.colon.kit</string>
           </dict>
           <key>12</key>
           <dict>
             <key>name</key>
-            <string>support.type.function.function.kit</string>
+            <string>support.type.function.kit</string>
           </dict>
           <key>14</key>
           <dict>
             <key>name</key>
-            <string>support.type.function.input.kit</string>
-          </dict>
-          <key>15</key>
-          <dict>
-            <key>name</key>
-            <string>punctuation.separator.comma.kit</string>
+            <string>support.type.function.function.kit</string>
           </dict>
           <key>16</key>
           <dict>
@@ -338,21 +368,61 @@
           <key>17</key>
           <dict>
             <key>name</key>
-            <string>keyword.control.arrow.kit</string>
+            <string>support.type.function.input.kit</string>
           </dict>
           <key>18</key>
           <dict>
             <key>name</key>
-            <string>support.type.function.return.kit</string>
+            <string>support.type.function.input.kit</string>
           </dict>
           <key>19</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.separator.comma.kit</string>
+          </dict>
+          <key>20</key>
+          <dict>
+            <key>name</key>
+            <string>support.type.function.input.kit</string>
+          </dict>
+          <key>21</key>
+          <dict>
+            <key>name</key>
+            <string>support.type.function.input.kit</string>
+          </dict>
+          <key>22</key>
+          <dict>
+            <key>name</key>
+            <string>support.type.function.input.kit</string>
+          </dict>
+          <key>23</key>
+          <dict>
+            <key>name</key>
+            <string>keyword.control.arrow.kit</string>
+          </dict>
+          <key>24</key>
+          <dict>
+            <key>name</key>
+            <string>support.type.function.return.kit</string>
+          </dict>
+          <key>25</key>
+          <dict>
+            <key>name</key>
+            <string>support.type.function.return.kit</string>
+          </dict>
+          <key>26</key>
+          <dict>
+            <key>name</key>
+            <string>support.type.function.return.kit</string>
+          </dict>
+          <key>27</key>
           <dict>
             <key>name</key>
             <string>meta.preprocessor.rewrite.dollarsign.kit</string>
           </dict>
         </dict>
         <key>match</key>
-        <string>(\$\{)([A-Za-z0-9_]+)(:)( *)([A-Z][a-zA-Z0-9_\[\]\(\)]+)(\})|(\$\{)([A-Za-z0-9_]+)(:)( *)((function *)\((([A-Z][a-zA-Z0-9_\[\]]*)(, ))*([A-Z][a-zA-Z0-9_\[\]]*)\) *(->) *([A-Z][a-zA-Z0-9_\[\]]*))(\})</string>
+        <string>(\$\{)([a-z_][A-Za-z0-9_]*)(:)( *)((([a-z_][a-zA-Z0-9_]*\.)+)?[A-Z][a-zA-Z0-9_\[\]\(\)]*)(\})|(\$\{)([a-z_][A-Za-z0-9_]*)(:)( *)((function *)\((((([a-z_][a-zA-Z0-9_]*\.)+)?[A-Z][a-zA-Z0-9_\[\]]*)(, ))*((([a-z_][a-zA-Z0-9_]*\.)+)?[A-Z][a-zA-Z0-9_\[\]]*)\) *(->) *((([a-z_][a-zA-Z0-9_]*\.)+)?[A-Z][a-zA-Z0-9_\[\]]*))(\})</string>
       </dict>
     </array>
   </dict>
