@@ -141,19 +141,25 @@
         <key>name</key>
         <string>keyword.operator.kit</string>
         <key>match</key>
-        <string><<=|>>=|<<|>></string>
+        <string>(?<![\*\/\+\-\^\=\<\>\!\&\%\~\@\?\:\.])(<<=|>>=|<<|>>)(?![\*\/\+\-\^\=\<\>\!\&\%\~\@\?\:\.])</string>
       </dict>
       <dict>
         <key>name</key>
         <string>keyword.operator.logical.kit</string>
         <key>match</key>
-        <string>==|<=|>=|!=|>|<|\|\||&&|!</string>
+        <string>(?<![\*\/\+\-\^\=\<\>\!\&\%\~\@\?\:\.])(==|<=|>=|!=|>|<|\|\||&&|!)(?![\*\/\+\-\^\=\<\>\!\&\%\~\@\?\:\.])</string>
       </dict>
       <dict>
         <key>name</key>
         <string>keyword.operator.kit</string>
         <key>match</key>
-        <string>(=|-|\+|--|\+\+|\*|%|&|\^|\||\~|\/)|((?<=[^\.])\.\.\.(?=[^\.]))|((?<=[^\.])\.(?=[^\.]))</string>
+        <string>(?<![\*\/\+\-\^\=\<\>\!\&\%\~\@\?\:\.])((=|-|\+|--|\+\+|\*|%|&|\^|\||\~|\/)|((?<=[^\.])\.\.\.(?=[^\.]))|((?<=[^\.])\.(?=[^\.])))(?![\*\/\+\-\^\=\<\>\!\&\%\~\@\?\:\.])</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>keyword.operator.custom.kit</string>
+        <key>match</key>
+        <string>[\*\/\+\-\^\=\<\>\!\&\%\~\@\?\:\.]+</string>
       </dict>
       <dict>
         <key>name</key>
