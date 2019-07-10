@@ -92,6 +92,8 @@ patterns:
 - name: markup.heading.metadata.kit
   begin: '\#\['
   end: '\]'
+- name: variable.function.main.kit
+  match: '((?<=function )\bmain(?=\()\b)'
 - name: variable.function.print.kit
   match: '(\bprintf(?=\()\b)|((?<!function )\bprint[a-zA-Z0-9_]*(?=\()\b)'
 - name: variable.function.constructor.kit

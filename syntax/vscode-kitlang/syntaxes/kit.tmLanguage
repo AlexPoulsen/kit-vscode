@@ -269,6 +269,12 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>variable.function.main.kit</string>
+        <key>match</key>
+        <string>((?<=function )\bmain(?=\()\b)</string>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>variable.function.print.kit</string>
         <key>match</key>
         <string>(\bprintf(?=\()\b)|((?<!function )\bprint[a-zA-Z0-9_]*(?=\()\b)</string>

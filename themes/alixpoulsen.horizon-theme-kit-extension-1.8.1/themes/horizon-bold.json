@@ -341,6 +341,14 @@
       }
     },
     {
+      "name": "`main` Function",
+      "scope": ["variable.function.main"],
+      "settings": {
+        "foreground": "#7F92FCE6",
+        "fontStyle": "bold italic underline"
+      }
+    },
+    {
       "name": "Function",
       "scope": ["entity.name.function", "variable.function"],
       "settings": {
@@ -382,7 +390,7 @@
       "name": "Custom operator",
       "scope": "keyword.operator.custom.kit",
       "settings": {
-        "foreground": "#7789F0",
+        "foreground": "#7788F0",
         "fontStyle": "bold"
       }
     },
