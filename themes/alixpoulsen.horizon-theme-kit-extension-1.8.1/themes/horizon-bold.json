@@ -222,7 +222,15 @@
     },
     {
       "name": "Number",
-      "scope": "constant.numeric",
+      "scope": ["constant.numeric.decimal.negative", "constant.numeric.octal.negative", "constant.numeric.hex.negative", "constant.numeric.bin.negative"],
+      "settings": {
+        "foreground": "#FA89A8E6",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": ["constant.numeric.decimal.positive", "constant.numeric.octal.positive", "constant.numeric.hex.positive", "constant.numeric.bin.positive"],
       "settings": {
         "foreground": "#F09483E6"
       }
